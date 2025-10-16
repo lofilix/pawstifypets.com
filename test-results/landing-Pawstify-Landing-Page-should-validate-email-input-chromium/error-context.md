@@ -1,0 +1,122 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]: P
+        - generic [ref=e8]: Pawstify
+      - navigation [ref=e9]:
+        - button "Why Pawstify" [ref=e10] [cursor=pointer]
+        - button "How It Works" [ref=e11] [cursor=pointer]
+        - button "FAQ" [ref=e12] [cursor=pointer]
+        - button "Join Beta 🐾" [ref=e13] [cursor=pointer]
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - heading "Manage All Your Pets' Health in One App — Join Pawstify Demo" [level=1] [ref=e17]
+        - paragraph [ref=e18]: Track vaccinations, prescriptions, and vet reminders effortlessly.
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - textbox "Email address for early access" [active] [ref=e22]:
+              - /placeholder: Enter your Gmail
+              - text: invalid-email
+            - button "Join Early Access 🐾" [ref=e23] [cursor=pointer]
+          - paragraph [ref=e24]: Limited spots · No spam ever
+      - img "Pawstify app interface showing pet health dashboard with vaccination tracking and reminders" [ref=e29]
+    - generic [ref=e31]:
+      - heading "Why Pawstify Exists" [level=2] [ref=e32]
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - img "Scattered vaccination records" [ref=e35]: 📋
+          - heading "Scattered vaccination records" [level=3] [ref=e36]
+          - paragraph [ref=e37]: Pet health info spread across papers and phones is hard to manage.
+        - generic [ref=e38]:
+          - img "Forgotten medications" [ref=e39]: 💊
+          - heading "Forgotten medications" [level=3] [ref=e40]
+          - paragraph [ref=e41]: Never miss a dose or vet visit again with smart reminders.
+        - generic [ref=e42]:
+          - img "Multiple pets, one app" [ref=e43]: 🐾
+          - heading "Multiple pets, one app" [level=3] [ref=e44]
+          - paragraph [ref=e45]: Manage all your pets' health needs from a single dashboard.
+    - generic [ref=e47]:
+      - heading "How Pawstify Helps" [level=2] [ref=e48]
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - img "Digital vaccination card interface showing pet immunization records" [ref=e53]
+          - generic [ref=e54]:
+            - heading "Digital Vaccination Cards" [level=3] [ref=e55]
+            - paragraph [ref=e56]: No more lost papers — keep every record organized digitally.
+        - generic [ref=e57]:
+          - img "Health reminder notification screen with upcoming pet care tasks" [ref=e60]
+          - generic [ref=e61]:
+            - heading "Smart Health Reminders" [level=3] [ref=e62]
+            - paragraph [ref=e63]: Receive timely alerts for vaccinations, meds, and vet visits.
+        - generic [ref=e64]:
+          - img "Digital prescription management interface" [ref=e67]
+          - generic [ref=e68]:
+            - heading "Digital Prescriptions" [level=3] [ref=e69]
+            - paragraph [ref=e70]: Keep vet notes and medication info easily accessible.
+    - generic [ref=e72]:
+      - heading "A Sneak Peek of Pawstify" [level=2] [ref=e73]
+      - generic [ref=e74]:
+        - img "Pawstify dashboard interface showing vaccination tracking and routine reminders" [ref=e79]
+        - img "Vaccine upload screen for digitizing pet health records" [ref=e84]
+        - img "Pet care reminder calendar with scheduled vet visits and medications" [ref=e89]
+    - generic [ref=e91]:
+      - heading "What Early Testers Are Saying" [level=2] [ref=e92]
+      - generic [ref=e93]:
+        - blockquote [ref=e94]:
+          - generic [ref=e95]:
+            - paragraph [ref=e96]: "\"Managing 4 rescue dogs' health records is finally easy!\""
+            - generic [ref=e97]:
+              - strong [ref=e98]: Maria
+              - text: ", Pet Shelter Owner"
+        - blockquote [ref=e99]:
+          - generic [ref=e100]:
+            - paragraph [ref=e101]: "\"Our clinic loves the reminder system. It helps clients stay consistent.\""
+            - generic [ref=e102]:
+              - strong [ref=e103]: Dr. Reyes
+              - text: ", Vet Partner"
+      - paragraph [ref=e104]: Built with vets. Designed for everyone who loves pets.
+    - generic [ref=e106]:
+      - heading "Frequently Asked Questions" [level=2] [ref=e107]
+      - generic [ref=e108]:
+        - group [ref=e109]:
+          - generic "Is Pawstify free during demo? ▼" [ref=e110] [cursor=pointer]:
+            - generic [ref=e111]: Is Pawstify free during demo?
+            - generic [ref=e112]: ▼
+        - group [ref=e113]:
+          - generic "Why do I need to provide Gmail? ▼" [ref=e114] [cursor=pointer]:
+            - generic [ref=e115]: Why do I need to provide Gmail?
+            - generic [ref=e116]: ▼
+        - group [ref=e117]:
+          - generic "What devices are supported? ▼" [ref=e118] [cursor=pointer]:
+            - generic [ref=e119]: What devices are supported?
+            - generic [ref=e120]: ▼
+        - group [ref=e121]:
+          - generic "Is my data safe? ▼" [ref=e122] [cursor=pointer]:
+            - generic [ref=e123]: Is my data safe?
+            - generic [ref=e124]: ▼
+    - generic [ref=e128]:
+      - heading "Help Us Shape the Future of Pet Care" [level=2] [ref=e129]
+      - paragraph [ref=e130]: Join Pawstify's demo and make managing your pets' health simpler than ever.
+      - generic [ref=e132]:
+        - textbox "Email address for demo access" [ref=e134]:
+          - /placeholder: Enter your Gmail
+        - button "Join Demo 🐾" [ref=e135] [cursor=pointer]
+      - paragraph [ref=e136]: We'll never share your email.
+    - generic [ref=e139]:
+      - paragraph [ref=e140]: © 2025 Pawstify · Built with ❤️ for pet owners everywhere
+      - navigation "Footer navigation" [ref=e141]:
+        - link "Privacy Policy" [ref=e142] [cursor=pointer]:
+          - /url: /privacy
+        - generic [ref=e143]: ·
+        - link "Terms of Service" [ref=e144] [cursor=pointer]:
+          - /url: /terms
+        - generic [ref=e145]: ·
+        - link "Contact Us" [ref=e146] [cursor=pointer]:
+          - /url: /contact
+  - alert [ref=e147]
+```

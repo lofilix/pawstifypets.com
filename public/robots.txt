@@ -1,0 +1,16 @@
+# Robots.txt for Pawstify Landing Page
+# https://pawstifypets.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://pawstifypets.com/sitemap.xml
+
+# Disallow admin areas (when added)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Crawl-delay (optional, for rate limiting)
+# Crawl-delay: 1
+
