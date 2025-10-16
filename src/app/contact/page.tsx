@@ -261,7 +261,7 @@ export default function ContactPage() {
                   <div className="flex-shrink-0">
                     <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-orange-200 shadow-lg animate-breathe">
                       <img
-                        src="/images/bearcutie1.jpeg"
+                        src="/images/bearcutie1.JPEG"
                         alt="Bear - Pawstify Team"
                         className="w-full h-full object-cover hover-scale"
                         onError={(e) => {
