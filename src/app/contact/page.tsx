@@ -263,7 +263,7 @@ export default function ContactPage() {
                       <img
                         src="/images/bearcutie1.JPEG"
                         alt="Bear - Pawstify Team"
-                        className="w-full h-full object-cover hover-scale"
+                        className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-110 cursor-pointer"
                         onError={(e) => {
                           // Fallback to a placeholder if image doesn't exist
                           e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNDgiIGN5PSI0OCIgcj0iNDgiIGZpbGw9IiNGRkY3RTAiLz4KPHN2ZyB4PSIyNCIgeT0iMjQiIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KPHBhdGggZD0iTTEyIDJDMTMuMSAyIDE0IDIuOSAxNCA0QzE0IDUuMSAxMy4xIDYgMTIgNkMxMC45IDYgMTAgNS4xIDEwIDRDMTAgMi45IDEwLjkgMiAxMiAyWk0yMSA5VjEwQzIxIDEwLjYgMjAuNiAxMSAyMCAxMUg0QzMuNCAxMSAzIDEwLjYgMyAxMFY5QzMgOC40IDMuNCA4IDQgOEgyMEMyMC42IDggMjEgOC40IDIxIDlaTTEyIDEzQzE0LjIxIDEzIDE2IDE0Ljc5IDE2IDE3VjE5QzE2IDE5LjU1IDE1LjU1IDIwIDE1IDIwSDlDOC40NSAyMCA4IDE5LjU1IDggMTlWMTdDOCAxNC43OSA5Ljc5IDEzIDEyIDEzWiIgZmlsbD0iI0Y5OTQwMCIvPgo8L3N2Zz4KPC9zdmc+'
